@@ -57,8 +57,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: var(--text-color);
-	line-height: 1.55;
 	font-size: 18px;
+	line-height: 1.55;
 }
 
 .container {
@@ -225,7 +225,9 @@ a {
 }
 
 /* our-collection */
-
+.our-collection {
+	margin-bottom: 20px;
+}
 .our-collection__img-one {
 	position: absolute;
 	top: 0;
@@ -311,4 +313,59 @@ a {
 	font-size: 22px;
 	line-height: 1.5;
 	font-weight: 400;
+}
+
+/* INDEX_COLECTION */
+
+.index-colaction__inner {
+	position: relative;
+	background-image: url(../img/index-colection-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 420px;
+}
+
+.index-colaction__info {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 518px;
+	width: 100%;
+	text-align: center;
+	color: var(--white-color);
+}
+
+.index-colaction__list {
+	position: absolute;
+	display: flex;
+	padding: 0;
+}
+
+.index-colaction__item:nth-child(1) {
+	position: relative;
+}
+
+.index-colaction__item-logo {
+	position: absolute;
+	left: -64px;
+	top: -68px;
+}
+
+.index-colaction__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.index-colaction__img {
+	width: 433px;
+	height: 500px;
+	object-fit: cover;
+	margin-bottom: 28px;
+}
+
+.index-colaction__item-title {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 10px;
 }
