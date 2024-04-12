@@ -59,6 +59,7 @@ body {
 	color: var(--text-color);
 	font-size: 18px;
 	line-height: 1.55;
+	overflow-x: hidden;
 }
 
 .container {
@@ -316,6 +317,9 @@ a {
 }
 
 /* INDEX_COLECTION */
+.index-colaction {
+	margin-bottom: 289px;
+}
 
 .index-colaction__inner {
 	position: relative;
@@ -340,6 +344,7 @@ a {
 	position: absolute;
 	display: flex;
 	padding: 0;
+	margin-left: -10px;
 }
 
 .index-colaction__item:nth-child(1) {
