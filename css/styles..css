@@ -468,3 +468,31 @@ a {
 	outline: 2px dotted var(--darkgold-bg);
 	outline-offset: 3px;
 }
+
+.site-footer {
+	padding-top: 68px;
+	padding-bottom: 68px;
+	background-color: var(--gold-bg);
+}
+
+.social {
+	display: flex;
+	align-items: center;
+}
+
+.social__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.social__link {
+	display: flex;
+	align-items: center;
+}
+
+.social__link svg {
+	color: var(--text-color);
+}
+
+.social__link svg:hover {
+	color: var(--green-bg);
+}
