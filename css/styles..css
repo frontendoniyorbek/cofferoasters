@@ -496,3 +496,33 @@ a {
 .social__link svg:hover {
 	color: var(--green-bg);
 }
+
+.our-commitment__inner {
+	position: relative;
+	padding: 160px 64px 200px 165px;
+	background-image: url(../img/our-commitment-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.our-commitment__img-wrapper {
+	margin-right: 185px;
+}
+
+.our-commitment__info {
+	max-width: 626px;
+	width: 100%;
+}
+
+.our-commitment__title {
+	margin-bottom: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: var(--black-color);
+}
