@@ -6,6 +6,7 @@
 	--gold-bg: #f3d7b7;
 	--darkgold-bg: #c99b67;
 	--light-bg: #f8f8f2;
+	--creat-plan-color: #555555;
 }
 
 /* FOTS */
@@ -576,4 +577,112 @@ a {
 	position: absolute;
 	right: 30px;
 	top: -90px;
+}
+
+/* CREAT PLAN */
+.create-plan {
+	padding-top: 20px;
+}
+.create-plan__container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../img/create-plan-bg.jpg);
+	background-position: center;
+}
+
+.create-plan__list {
+	list-style: none;
+}
+
+.create-plan__item {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.2;
+	color: var(--creat-plan-color);
+}
+
+.create-plan__item:not(:last-child) {
+	margin-bottom: 35px;
+}
+
+.create-plan__item:nth-child(1) {
+	padding-bottom: 5px;
+	color: var(--black-color);
+	border-bottom: 3px dashed var(--darkgold-bg);
+}
+
+.create-plan__info {
+	display: flex;
+	align-items: center;
+}
+
+.create-plan__title {
+	font-weight: 700;
+	font-size: 40px;
+	color: var(--black-color);
+	margin-right: 44px;
+}
+
+.create-plan__btn {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.create-plan__lists {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+
+.create-plan__items {
+	max-width: 206px;
+	width: 100%;
+	padding: 30px 16px 80px;
+	background-color: rgba(10, 119, 95, 0.2);
+	color: var(--text-color);
+}
+
+.create-plan__items:nth-child(1) {
+	background-color: var(--green-bg);
+	opacity: 1;
+	color: var(--white-color);
+}
+
+.create-plan_-items-title {
+	font-weight: 500;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.create-plan__inner {
+	padding: 40px 20px;
+	margin-top: 100px;
+	background-color: var(--darkgold-bg);
+	color: var(--white-color);
+	max-width: 660px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.create-plan__inner-title {
+	font-size: 16px;
+	margin-bottom: 14px;
+}
+
+.create-plan__inner-text {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.create-plan__inner-text span {
+	color: var(--black-color);
+}
+
+.create-plan__btn-wrapper {
+	display: flex;
+	justify-content: end;
 }
